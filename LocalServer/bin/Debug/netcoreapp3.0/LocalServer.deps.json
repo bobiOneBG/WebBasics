@@ -1,0 +1,203 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "LocalServer/1.0.0": {
+        "dependencies": {
+          "GitHub": "1.16.0",
+          "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.7"
+        },
+        "runtime": {
+          "LocalServer.dll": {}
+        }
+      },
+      "Carbon.Data.Protection/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Carbon.Data.Protection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Carbon.Json/2.0.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Json.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Carbon.Packaging/1.35.0": {
+        "dependencies": {
+          "Carbon.Data.Protection": "1.0.0",
+          "Carbon.Json": "2.0.0",
+          "Carbon.Storage": "2.0.0",
+          "Carbon.Versioning": "1.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Packaging.dll": {
+            "assemblyVersion": "1.35.0.0",
+            "fileVersion": "1.35.0.0"
+          }
+        }
+      },
+      "Carbon.Storage/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Carbon.Storage.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Carbon.VersionControl/1.9.2": {
+        "dependencies": {
+          "Carbon.Storage": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.VersionControl.dll": {
+            "assemblyVersion": "1.9.2.0",
+            "fileVersion": "1.9.2.0"
+          }
+        }
+      },
+      "Carbon.Versioning/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Versioning.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        }
+      },
+      "GitHub/1.16.0": {
+        "dependencies": {
+          "Carbon.Packaging": "1.35.0",
+          "Carbon.VersionControl": "1.9.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GitHub.dll": {
+            "assemblyVersion": "1.16.0.0",
+            "fileVersion": "1.16.0.0"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.7": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "2.9.7",
+          "Microsoft.CodeQuality.Analyzers": "2.9.7",
+          "Microsoft.NetCore.Analyzers": "2.9.7",
+          "Microsoft.NetFramework.Analyzers": "2.9.7"
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.7": {},
+      "Microsoft.CodeQuality.Analyzers/2.9.7": {},
+      "Microsoft.NetCore.Analyzers/2.9.7": {},
+      "Microsoft.NetFramework.Analyzers/2.9.7": {},
+      "System.Text.Encodings.Web/4.6.0": {}
+    }
+  },
+  "libraries": {
+    "LocalServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Carbon.Data.Protection/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z4CKdYZYIb1naN2PHQDJUnJU4ZG73XRNsrf0oaAaa07usDbelhNX/Dfu3XI2BCTtw2MzvRVWwLh/M43b+y5FlQ==",
+      "path": "carbon.data.protection/1.0.0",
+      "hashPath": "carbon.data.protection.1.0.0.nupkg.sha512"
+    },
+    "Carbon.Json/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Nw1noQd+eEbnag5/jtLrvuhcEWbNL69+mh/SHrRr0J9XDL8Q/GBpIvHz/40ZiQCtC0qCihZPh4WwwV6nwFGfw==",
+      "path": "carbon.json/2.0.0",
+      "hashPath": "carbon.json.2.0.0.nupkg.sha512"
+    },
+    "Carbon.Packaging/1.35.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oX7jniIFG33hPeBNr1Gabzfau7blqDkGXdRekEBQBdJygOPy2gc2qn2ibj1/elYixubUfsuMTRZdvAR2evkrsw==",
+      "path": "carbon.packaging/1.35.0",
+      "hashPath": "carbon.packaging.1.35.0.nupkg.sha512"
+    },
+    "Carbon.Storage/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fClR+4VNmfEOzwQLfpqeAtq54fyWX8UuXa5LHfRzj0F7lfHfY7MwcG3DHV1mXfmb/gnj+2QCS01zxWVB0HZ95A==",
+      "path": "carbon.storage/2.0.0",
+      "hashPath": "carbon.storage.2.0.0.nupkg.sha512"
+    },
+    "Carbon.VersionControl/1.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0xTXOeb8Y6cJaP65CenJNbkuBGFXE6r+zsIKagCSo3xuSDbOwPf6c/yuyzeJkNStAXxDpUtE7pthAeQA3AI++g==",
+      "path": "carbon.versioncontrol/1.9.2",
+      "hashPath": "carbon.versioncontrol.1.9.2.nupkg.sha512"
+    },
+    "Carbon.Versioning/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z2uAaOPrxWyYCDbK/dJWGqpR7ZMX6BO9uF7pML2NrBqk3r17/fUQjV8NMYh5ATYDCBk94DH3IQr0w53/OCQZwQ==",
+      "path": "carbon.versioning/1.6.0",
+      "hashPath": "carbon.versioning.1.6.0.nupkg.sha512"
+    },
+    "GitHub/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ovG0n+seb91pnpimFas5ktuRrjh+6VyFiy0Ao7VR3s3HiIIax21oRpxnC5m4b3L1eMeqfQrgEQ1WyP0DuDi60w==",
+      "path": "github/1.16.0",
+      "hashPath": "github.1.16.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/WbA9NXJmd7LW4ERe1v9YVRlpp0nnEMV5ne0ydnKT3/RMLzTt9AZjghuL6u3eSclyhcSI/mW/B4uPv2cAr4PXg==",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/2.9.7",
+      "hashPath": "microsoft.codeanalysis.fxcopanalyzers.2.9.7.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ePzHjOnn2EJCYubovr+lVPfkOx7yXjF9pNzE2TSZgAAC4zE4fNAL2HU/f+AoJWP0oQH1hohkApwfZPS+I82ynQ==",
+      "path": "microsoft.codeanalysis.versioncheckanalyzer/2.9.7",
+      "hashPath": "microsoft.codeanalysis.versioncheckanalyzer.2.9.7.nupkg.sha512"
+    },
+    "Microsoft.CodeQuality.Analyzers/2.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gl+jYeGvFxET/FUL/gNMKMxb3/p3NKUofBpGS+wYna8Jphbm2Tx6DDZaqPcpcNpabZKzPAvezzmtW7EILTbZtA==",
+      "path": "microsoft.codequality.analyzers/2.9.7",
+      "hashPath": "microsoft.codequality.analyzers.2.9.7.nupkg.sha512"
+    },
+    "Microsoft.NetCore.Analyzers/2.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NYQOi5n+36rVuh+Yh6UabkzH5lNaji+OIArnzbY1jUp+u2CL9A7DatJGrh7u/VOZJICVFR3UgVKobm0CLbIcRg==",
+      "path": "microsoft.netcore.analyzers/2.9.7",
+      "hashPath": "microsoft.netcore.analyzers.2.9.7.nupkg.sha512"
+    },
+    "Microsoft.NetFramework.Analyzers/2.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sC+Vt/m60axfe0jr8K3iXMXSwNhCp8jMJyn8gRMo9HDg2Nr7PpVGcNxqIt1rRbRiE6Lwqp8lo8AlFekHxvUCOg==",
+      "path": "microsoft.netframework.analyzers/2.9.7",
+      "hashPath": "microsoft.netframework.analyzers.2.9.7.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BXgFO8Yi7ao7hVA/nklD0Hre1Bbce048ZqryGZVFifGNPuh+2jqF1i/jLJLMfFGZIzUOw+nCIeH24SQhghDSPw==",
+      "path": "system.text.encodings.web/4.6.0",
+      "hashPath": "system.text.encodings.web.4.6.0.nupkg.sha512"
+    }
+  }
+}
